@@ -6,7 +6,7 @@ namespace Ch01
     {
         public void Fly()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("I'm flying!");
         }
     }
 }

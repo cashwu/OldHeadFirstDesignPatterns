@@ -1,11 +1,13 @@
-﻿namespace Ch01
+﻿using System;
+
+namespace Ch01
 {
-    class Duck
+    public abstract class Duck
     {
         protected IFlyBehavior FlyBehavior;
         protected IQuackBehavior QuackBehavior;
 
-        public Duck()
+        protected Duck()
         {
         }
 
@@ -21,10 +23,9 @@
 
         public void Swim()
         {
+            Console.WriteLine("All ducks float, even decoys!");
         }
 
-        public virtual void Display()
-        {
-        }
+        public abstract void Display();
     }
 }

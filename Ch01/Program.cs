@@ -10,6 +10,9 @@ namespace Ch01
     {
         static void Main(string[] args)
         {
+            Duck mallard = new MallardDuck();
+            mallard.PerformQuack();
+            mallard.PerformFly();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Ch01
 {
-    internal interface IQuackBehavior
+    public interface IQuackBehavior
     {
         void Quack();
     }

@@ -1,6 +1,6 @@
 ﻿namespace Ch01
 {
-    internal interface IFlyBehavior
+    public interface IFlyBehavior
     {
         void Fly();
     }

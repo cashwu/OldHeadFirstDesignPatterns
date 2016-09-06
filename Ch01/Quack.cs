@@ -6,7 +6,7 @@ namespace Ch01
     {
         void IQuackBehavior.Quack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quack");
         }
     }
 }

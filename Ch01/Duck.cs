@@ -27,5 +27,15 @@ namespace Ch01
         }
 
         public abstract void Display();
+
+        public void SetFlyBehavior(IFlyBehavior fb)
+        {
+            FlyBehavior = fb;
+        }
+
+        public void SetQuackBehavior(IQuackBehavior qb)
+        {
+            QuackBehavior = qb;
+        }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System;
+using Ch01.Fly;
+using Ch01.Quack;
 
-namespace Ch01
+namespace Ch01.Duck
 {
     public abstract class Duck
     {

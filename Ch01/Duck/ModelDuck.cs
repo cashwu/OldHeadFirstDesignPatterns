@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Ch01.Fly;
+using System;
 
-namespace Ch01
+namespace Ch01.Duck
 {
     public class ModelDuck : Duck
     {
         public ModelDuck()
         {
             FlyBehavior = new FlyNoWay();
-            QuackBehavior = new Quack();
+            QuackBehavior = new Quack.Quack();
         }
 
         public override void Display()

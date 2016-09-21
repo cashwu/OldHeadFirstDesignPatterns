@@ -1,4 +1,4 @@
-﻿namespace Ch01
+﻿namespace Ch01.Quack
 {
     public interface IQuackBehavior
     {

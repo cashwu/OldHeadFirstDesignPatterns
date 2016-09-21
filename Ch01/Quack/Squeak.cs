@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ch01
+namespace Ch01.Quack
 {
     class Squeak : IQuackBehavior
     {

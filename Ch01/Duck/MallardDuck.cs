@@ -1,12 +1,13 @@
 ﻿using System;
+using Ch01.Fly;
 
-namespace Ch01
+namespace Ch01.Duck
 {
     class MallardDuck : Duck
     {
         public MallardDuck()
         {
-            QuackBehavior = new Quack();
+            QuackBehavior = new Quack.Quack();
             FlyBehavior = new FlyWithWings();
         }
 

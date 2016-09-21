@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ch01
+namespace Ch01.Fly
 {
     public class FlyRocketPowered : IFlyBehavior
     {

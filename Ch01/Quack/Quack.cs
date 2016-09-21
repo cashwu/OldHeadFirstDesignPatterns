@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ch01
+namespace Ch01.Quack
 {
     internal class Quack : IQuackBehavior
     {
